@@ -5,6 +5,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
+/* Header Section */
 .header{
     height: 92px;
     max-width: 100%;
@@ -13,6 +14,7 @@ body{
     align-items: center;
     padding: 16px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .Btn-container{
@@ -34,17 +36,45 @@ align-items: center;
     font-family: 'Inter';
     color: rgba(79, 156, 249, 1);
     font-weight: 700;
-    font-size: 19.64px;
-    line-height: 23.77px;
+    font-size: 28px;
+    line-height: 33.89px;
     width: 75.37%;
 }
 
+
+/* section 1 */
+.section1{
+margin: 0px;
+width: 100%;
+padding: 140px 220px;
+background-color: transparent;
+}
+
+.sub1{
+    /* max-width: 100%;
+    box-sizing: border-box; */
+    display: flex;
+}
+.sub11{
+    display: flex;
+    flex-direction: column;
+}
+.sub12{
+  background-color: rgba(196, 222, 253, 1);
+}
+
 @media screen and (max-width: 1440px){
-    
+    /* section 1 */
+    .section1{
+       padding: 100px 32px; 
+    }
 }
 
 @media screen and (max-width: 1152px){
-    
+    /* section 1 */
+    .section1{
+        padding: 140px 32px; 
+     }
 }
 
 @media screen and (max-width: 768px){
@@ -53,6 +83,7 @@ align-items: center;
         background-image: url(./images/Element_tab.jpg);
     }
 
+    /* Header Section */
     .header{
         height: 66px;
         padding: 16px 4.167%;
@@ -62,26 +93,38 @@ align-items: center;
         width: 191px;
     }
     .Btn-container{
-        display: block;
+        display: flex;
+        align-items: center;
         width: 42px;
         height: 34px;
     }
     .Btn{
         display: block;
-        margin: auto 0;
+        margin: 0;
     }
+
+    /* section 1 */
+    .section1{
+        padding: 140px 20px; 
+     }
+    .sub1{
+        width: 94.79%;
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 320px){
     body{
         background-image: url(./images/Element_rotate.jpg);
+        background-position-y: 0px ;
     }
     
+    /* Header Section */
     .header{
         height: 56px;
         padding: 16px;
         width: 100%;
-        box-sizing: border-box;
     }
     .logo{
         height: 24px;
@@ -96,10 +139,17 @@ align-items: center;
     }
     .Btn-container{
         height: 24px;
-        /* margin-right: 30px; */
     }
-    /* .Btn{
-        display: block;
-        margin: auto 0;
-    } */
+
+    /* section 1 */
+    .section1{
+        padding: 80px 16px;
+    }
+    .sub1{
+        width: 288px;
+    }
+    .sub12{
+        width: 286px;
+        height: 191px;
+    }
 }
