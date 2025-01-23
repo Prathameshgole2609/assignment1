@@ -1,9 +1,11 @@
  html::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+    display: none;
   }
+
 *{
     box-sizing: border-box;
 }
+
 body{
     /* background-image: url(./images/Element.jpg); */
     background-size: cover;
@@ -12,6 +14,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
+
 /* Header Section */
 .header{
     padding: 16px 11.458%;
@@ -22,6 +25,72 @@ body{
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+}
+
+.subheader{
+display: flex;
+align-items: center;
+column-gap: 20px;
+}
+
+.text-cnt{
+    display: flex;
+    align-items: center;
+    padding: 0px 12px 0px 0px;
+    margin: 0px;
+    column-gap: 32px;
+}
+.htext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    color: rgba(79, 156, 249, 1);
+    font-family: 'DM sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.head-btn{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.btn1-head-1{
+font-family: 'Inter';
+height: 60px;
+width: 126px;
+background-color: rgba(255, 228, 146, 1);
+border-radius: 8px;
+border: none;
+color: rgba(4, 56, 115, 1);
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+box-sizing: border-box;
+}
+
+.btn1-head-2{
+font-family: 'Inter';
+height: 60px;
+width: 227px;
+background-color: rgba(79, 156, 249, 1);
+border-radius: 8px;
+border: none;
+color: rgba(255, 255, 255, 1);
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+column-gap: 10px;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+box-sizing: border-box;
 }
 
 .Btn-container{
@@ -361,6 +430,10 @@ align-items: center;
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 1152px){
+    /* Header */
+    .text-cnt{
+        display: none;
+    }
     .Btn-container{
         display: flex;
         align-items: center;
@@ -405,6 +478,9 @@ align-items: center;
     .logo{
         height: 34px;
         width: 191px;
+    }
+    .head-btn{
+        display: none;
     }
     /* .Btn-container{
         display: flex;
