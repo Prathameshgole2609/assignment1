@@ -1,7 +1,9 @@
  html::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
   }
-
+*{
+    box-sizing: border-box;
+}
 body{
     /* background-image: url(./images/Element.jpg); */
     background-size: cover;
@@ -253,14 +255,75 @@ align-items: center;
 
 /* Section4 */
 .section4{
+    margin: 0px;
+    width: 100%;
+    padding: 140px 11.458%;
+    background-color: transparent;
+    box-sizing: border-box;
+    }
+    
+    .sub4{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .sub41{
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+        width: 34.16667%;
+        flex: 1;
+    }
+    .sub41-cnt{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .sub41-head{
+        color: rgba(33, 37, 41, 1);
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77.45px;
+        margin: 0px;
+    }
+    .sub41-text{
+        font-family: 'Inter';
+        color: rgba(33, 37, 41, 1);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0px;
+        height: 60px;
+    }
+    .sub42{
+      background-color: rgba(196, 222, 253, 1);
+      flex: 1;
+      /* flex: 1; */
+      /* height: 100%;
+      width: 100%; */
+    }
+    
+    .btn4{
+    font-family: 'Inter';
+    height: 63px;
+    width: 219px;
+    background-color: rgba(79, 156, 249, 1);
+    border-radius: 8px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+    
 
-}
-.sub41{
 
-}
-.sub42{
-    background-color: rgba(196, 222, 253, 1);
-}
 
 /* Section 6 */
 .section6{
@@ -289,11 +352,27 @@ align-items: center;
         padding: 140px 32px;
     }
 
+    /* section 4 */
+    .section4{
+        padding: 100px 32px; 
+     }
 }
 
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 1152px){
+    .Btn-container{
+        display: flex;
+        align-items: center;
+        width: 42px;
+        height: 34px;
+    }
+    .Btn{
+        display: block;
+        margin: 0;
+    }
+
+
     /* section 1 */
     .section1{
         padding: 140px 32px; 
@@ -303,6 +382,11 @@ align-items: center;
     .super-section2{
         
     }
+
+    /* section 4 */
+    .section4{
+        padding: 140px 32px; 
+     }
 }
 
 
@@ -322,7 +406,7 @@ align-items: center;
         height: 34px;
         width: 191px;
     }
-    .Btn-container{
+    /* .Btn-container{
         display: flex;
         align-items: center;
         width: 42px;
@@ -331,7 +415,7 @@ align-items: center;
     .Btn{
         display: block;
         margin: 0;
-    }
+    } */
 
     /* section 1 */
     .section1{
@@ -437,6 +521,43 @@ align-items: center;
         height: 367px;
         flex: none;
     }
+ 
+    /* Section 4 */
+    .section4{
+        padding: 140px 2.604%; 
+     }
+    .sub4{
+        flex-direction: column;
+        row-gap: 100px;
+        align-items: center;
+    }
+    .sub41{
+        align-items: center;
+        flex: none;
+        width: 100%;
+    }
+    .sub41-cnt{
+        align-items: center;
+        text-align: center;
+    }
+    .sub41-head{
+        font-size: 54px;
+        line-height: 65.35px;
+        padding: 0px 12px;
+    }
+    .btn4{
+        height: 70px;
+        width: 232px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .sub42{
+        width: 75.6868%;
+        height: 367px;
+        flex: none;
+    }
+
+
 
     /* Section 7  */
     .section7{
@@ -547,13 +668,26 @@ align-items: center;
 
     /* Section4 */
     .section4{
-
+        padding: 80px 5%;
+        /* height: 813px; */
     }
+    
     .sub41{
-
+        /* width: 286px; */
+        height: 362px;
+    }
+    .sub41-cnt{
+      height: 232px;
+    }
+    .sub41-head{
+    font-size: 36px;
+    line-height: 43.57px;
+    }
+    .sub41-text{
+    height: 120px;
     }
     .sub42{
-        width: 284.5px;
-        height: 198.65px;
+        width: 100%;
+        height: 191px;
     }
 }
