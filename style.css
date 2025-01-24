@@ -1584,7 +1584,13 @@ column-gap: 60px;
         display: flex; 
         column-gap: 12px;
     }
+    .sub52{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 
+@media screen and (max-width: 931px){
     /* Section 10 */
     .section10{
         padding: 140px 0px;
@@ -1598,5 +1604,9 @@ column-gap: 60px;
     .dot{
         display: flex; 
         column-gap: 12px;
+    }
+    .sub102{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
