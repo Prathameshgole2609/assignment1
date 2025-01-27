@@ -434,8 +434,8 @@ align-items: center;
     color: rgba(33, 37, 41, 1);
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 64px;
-    line-height: 77.45px;
+    font-size: 72px;
+    line-height: 87.14px;
     margin: 0px;
 }
 
@@ -523,21 +523,21 @@ display: none;
  border: 1px solid rgba(255, 228, 146, 1);
 }
 
-.card52:hover{
+.card53{
     padding: 80px 44px;
     /* transition: all 1s linear; */
     color: rgba(4, 56, 115, 1);
     border: none;
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
 }
-.card52:hover .black {
+.black1 {
     display: none;
 }
 
-.card52:hover .blue {
+.b {
     display: block;
 }
-.card52:hover .sub52-btn {
+.sub53-btn {
     background-color: rgba(79, 156, 249, 1);
     color: rgba(255, 255, 255, 1);
     border: none;
@@ -578,8 +578,8 @@ display: none;
     color: rgba(255, 255, 255, 1);
         font-family: 'Inter';
         font-weight: 700;
-        font-size: 64px;
-        line-height: 77.45px;
+        font-size: 72px;
+        line-height: 87.14px;
         margin: 0px;
         height: fit-content;
 }
@@ -608,14 +608,14 @@ display: none;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    column-gap: 100px;
+    /* column-gap: 100px; */
 }
 .sub71{
     display: flex;
     flex-direction: column;
     row-gap: 60px;
-    width: 34.16667%;
-    flex: 1;
+    width: 54.05405405%;
+    /* flex: 1; */
 }
 .sub71-cnt{
     display: flex;
@@ -640,7 +640,7 @@ display: none;
     height: fit-content;
 }
 .sub72{
-  width: 47.9729%;
+  width: 45.94594595%;
 }
 
 
@@ -666,8 +666,8 @@ display: none;
     color: rgba(33, 37, 41, 1);
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 64px;
-    line-height: 77.45px;
+    font-size: 72px;
+    line-height: 87.14px;
     margin: 0px;
     text-align: center;
 }
@@ -756,8 +756,8 @@ display: none;
     color: rgba(33, 37, 41, 1);
     font-family: 'Inter';
     font-weight: 700;
-    font-size: 64px;
-    line-height: 77.45px;
+    font-size: 72px;
+    line-height: 87.14px;
     margin: 0px;
     position: relative;
 }
@@ -1043,12 +1043,20 @@ column-gap: 60px;
     .section5 {
         padding: 140px 32px;
     }
-
+    /* Section 6 */
+    .section6{
+        padding: 140px 32px;
+    }
     /* Section 7  */
     .section7{
         padding: 100px 32px; 
      }
-    
+    .sub71{
+        width: 48.26388889%;
+    }
+    .sub72{
+        width: 51.73611111%;
+    }
     /* Section 8 */
     .section8{
         padding: 140px 32px;
@@ -1139,12 +1147,41 @@ column-gap: 60px;
         height: 320.5px;
         width: 42.30414747%;
       }
+    /* Section 5 */
+    .sub51-head{
+        font-size: 64px;
+    line-height: 77.45px;
+    }
+    /* Section 6 */
+    .section6{
+        justify-content: left;
+        text-align: start;
+    }
+    .sub6{
+        align-items: start;
+        text-align: start;
+        width: 650px;
+        text-align: start;
+    }
+    .sub61-cnt{
+        text-align: start;
+        align-items: start;
+    }
+    .sub61-head{
+            font-size: 64px;
+            line-height: 77.45px;
+    }
     /* section 7 */
     .section7{
         padding: 140px 32px; 
     }
     .sub71-head{
         font-weight: 700;
+        font-size: 64px;
+        line-height: 77.45px;
+    }
+    /* Section 8 */
+    .sub81-head{
         font-size: 64px;
         line-height: 77.45px;
     }
@@ -1164,7 +1201,10 @@ column-gap: 60px;
     .card102{
         padding: 20px;
     }
-
+    .sub101{
+        font-size: 64px;
+    line-height: 77.45px;
+    }
     /* Footer */
     .f1{
         column-gap: 4.595588%;
@@ -1354,6 +1394,9 @@ column-gap: 60px;
 
 
     /* Section 6  */
+    .section6{
+        padding: 140px 20px;
+    }
     .sub61-head{
         font-size: 54px;
         line-height: 65.35px;
@@ -1362,6 +1405,7 @@ column-gap: 60px;
     .sub6{
         align-items: start;
         text-align: start;
+        width: 604px;
     }
     .sub61-cnt{
         align-items: start;
@@ -1395,7 +1439,7 @@ column-gap: 60px;
     .sub72{
         width: 70.46703297%;
         /* height: 287.11px; */
-        aspect-ratio: 1 / 1;
+        aspect-ratio: 513 / 287.11;
         flex: none;
     }
 
@@ -1595,11 +1639,16 @@ column-gap: 60px;
     }
 
     /* Section 6 */
+    .section6{
+        padding: 100px 5% 140px 5%;
+    }
     .sub61-head{
       font-size: 36px;
       line-height: 43.57px;
       }
-    
+    .sub6{
+        width: 100%;
+    }
     /* section 7 */
     .section7{
         padding: 80px 5%;
@@ -1617,8 +1666,8 @@ column-gap: 60px;
     }
     .sub72{
         width: 100%;
+        aspect-ratio: 288 / 162.58;
     }
-
 
     /* Section 8 */
     .section8{
