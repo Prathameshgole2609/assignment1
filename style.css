@@ -82,8 +82,8 @@ box-sizing: border-box;
 .btn1-head-2{
 font-family: 'Inter';
 height: 60px;
-/* width: 227px; */
-width: auto;
+width: 227px;
+/* width: auto; */
 background-color: rgba(79, 156, 249, 1);
 border-radius: 8px;
 border: none;
@@ -95,7 +95,7 @@ display: flex;
 column-gap: 10px;
 justify-content: center;
 align-items: center;
-padding: 16px 24px;
+/* padding: 16px 24px; */
 box-sizing: border-box;
 }
 
