@@ -22,7 +22,7 @@ body{
 
 /* Header Section */
 .header{
-    padding: 16px 11.458%;
+    padding: 16px 11.45833333%;
     height: 92px;
     max-width: 100%;
     width: 100%;
@@ -41,9 +41,9 @@ column-gap: 20px;
 .text-cnt{
     display: flex;
     align-items: center;
-    padding: 0px 40px 0px 0px;
+    padding: 0px 3.0338541667vw 0px 0px;
     margin: 0px;
-    column-gap: 32px;
+    column-gap: 1.6666666667vw;
 }
 .htext{
     display: flex;
@@ -77,6 +77,7 @@ justify-content: center;
 align-items: center;
 padding: 16px 40px;
 box-sizing: border-box;
+letter-spacing: -0.02em;
 }
 
 .btn1-head-2{
@@ -97,6 +98,7 @@ justify-content: center;
 align-items: center;
 /* padding: 16px 24px; */
 box-sizing: border-box;
+letter-spacing: -0.02em;
 }
 
 .Btn-container{
@@ -162,6 +164,7 @@ background-position-y: 65%;
     font-size: 64px;
     line-height: 77.45px;
     margin: 0px;
+    letter-spacing: -0.02em;
 }
 .sub11-text{
     font-family: 'Inter';
@@ -171,6 +174,7 @@ background-position-y: 65%;
     line-height: 30px;
     margin: 0px;
     height: fit-content;    /* // */
+    letter-spacing: -0.02em;
 }
 .sub12{
   background-color: rgba(196, 222, 253, 1);
@@ -193,6 +197,7 @@ display: flex;
 column-gap: 10px;
 justify-content: center;
 align-items: center;
+letter-spacing: -0.02em;
 }
 
 
@@ -244,6 +249,7 @@ position: relative;
     line-height: 87.14px;
     margin: 0px;
     position: relative;
+    letter-spacing: -0.02em;
 }
 .sec2{
     position: absolute;
@@ -260,6 +266,7 @@ position: relative;
     line-height: 30px;
     margin: 0px;
     height: fit-content;
+    letter-spacing: -0.02em;
 }
 .sub22{
   background-color: rgba(196, 222, 253, 1);
@@ -282,6 +289,7 @@ display: flex;
 column-gap: 10px;
 justify-content: center;
 align-items: center;
+letter-spacing: -0.02em;
 }
 
 
@@ -314,6 +322,7 @@ align-items: center;
     line-height: 87.14px;
     margin: 0px;
     position: relative;
+    letter-spacing: -0.02em;
 }
 .sec3{
     position: absolute;
@@ -329,6 +338,7 @@ align-items: center;
     line-height: 30px;
     margin: 0px;
     height: fit-content;
+    letter-spacing: -0.02em;
 }
 .sub32{
   width: 47.97297297%;
@@ -350,6 +360,7 @@ display: flex;
 column-gap: 10px;
 justify-content: center;
 align-items: center;
+letter-spacing: -0.02em;
 }
 
 
@@ -357,7 +368,7 @@ align-items: center;
 .section4{
     margin: 0px;
     width: 100%;
-    padding: 140px 11.458%;
+    padding: 140px 11.45833333%;
     background-color: transparent;
     box-sizing: border-box;
     }
@@ -390,6 +401,7 @@ align-items: center;
         line-height: 87.14px;
         margin: 0px;
         position: relative;
+        letter-spacing: -0.02em;
     }
     .sec4{
         position: absolute;
@@ -405,6 +417,7 @@ align-items: center;
         line-height: 30px;
         margin: 0px;
         height: fit-content;
+        letter-spacing: -0.02em;
     }
     .sub42{
       background-color: rgba(196, 222, 253, 1);
@@ -428,6 +441,7 @@ align-items: center;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
+    letter-spacing: -0.02em;
     }
     
 
@@ -471,6 +485,7 @@ align-items: center;
     line-height: 87.14px;
     margin: 0px;
     position: relative;
+    letter-spacing: -0.02em;
 }
 .sec5{
     position: absolute;
@@ -487,6 +502,7 @@ align-items: center;
     margin: 0px;
     height: fit-content;
     width: 979px;
+    letter-spacing: -0.02em;
 }
 
 .sub52{
@@ -511,6 +527,7 @@ padding: 40px 44px;
 color: rgba(33, 37, 41, 1);
 box-sizing: border-box;
 width: 31.91418919%;
+letter-spacing: -0.02em;
 }
 
 .text-block{
@@ -518,21 +535,25 @@ width: 31.91418919%;
     flex-direction: column;
     row-gap: 25px;
     font-family: 'Inter';
+    letter-spacing: -0.02em;
 }
 .t1{
 font-weight: 600;
 font-size: 24px;
 line-height: 36px;
+letter-spacing: -0.02em;
 }
 .t2{
     font-weight: 700;
     font-size: 36px;
-    line-height: 43.57px;  
+    line-height: 43.57px; 
+    letter-spacing: -0.02em; 
 }
 .t3{
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;  
+    letter-spacing: -0.02em;
 }
 
 .bullet52{
@@ -548,6 +569,7 @@ line-height: 36px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px; 
+    letter-spacing: -0.02em;
 }
 .black{
 display: block;
@@ -635,6 +657,7 @@ display: none;
         position: relative;
         letter-spacing: -2%;
         position: relative;
+        letter-spacing: -0.02em;
 }
 .sec6{
     position: absolute;
@@ -651,6 +674,7 @@ display: none;
     margin: 0px;
     height: fit-content;
     width: 1064px;
+    letter-spacing: -0.02em;
 }
 .btn6{
     font-family: 'Inter';
@@ -667,6 +691,7 @@ display: none;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
+    letter-spacing: -0.02em;
     }
     
 
@@ -674,7 +699,7 @@ display: none;
 .section7{
     margin: 0px;
     width: 100%;
-    padding: 140px 11.458%;
+    padding: 140px 11.45833333%;
     background-color: transparent;
     box-sizing: border-box;
 }
@@ -705,6 +730,7 @@ display: none;
     line-height: 87.14px;
     margin: 0px;
     position: relative;
+    letter-spacing: -0.02em;
 }
 .sec7{
     position: absolute;
@@ -720,6 +746,7 @@ display: none;
     line-height: 30px;
     margin: 0px;
     height: fit-content;
+    letter-spacing: -0.02em;
 }
 .sub72{
   width: 45.94594595%;
@@ -739,13 +766,14 @@ display: none;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
+    letter-spacing: -0.02em;
     }
 
 /* Section 8 */
 .section8{
     margin: 0px;
     width: 100%;
-    padding: 140px 11.458%;
+    padding: 140px 11.45833333%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -768,6 +796,7 @@ display: none;
     margin: 0px;
     text-align: center;
     position: relative;
+    letter-spacing: -0.02em;
 }
 .sec8{
     position: absolute;
@@ -787,7 +816,7 @@ display: none;
 .section9{
     margin: 0px;
     width: 100%;
-    padding: 140px 11.458%;
+    padding: 140px 11.45833333%;
     background-color: rgba(4, 56, 115, 1);
     box-sizing: border-box;
     background-image: url(./images/Element9.png);
@@ -820,6 +849,7 @@ display: none;
     font-size: 72px;
     line-height: 87.14px;
     margin: 0px;
+    letter-spacing: -0.02em;
 }
 .sub91-text{
     font-family: 'Inter';
@@ -829,6 +859,7 @@ display: none;
     line-height: 30px;
     margin: 0px;
     height: fit-content;
+    letter-spacing: -0.02em;
 }
 .sub92{
   width: 39.32432432%;
@@ -849,6 +880,7 @@ display: none;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
+    letter-spacing: -0.02em;
 }
 
 /* Section 10 */
@@ -881,6 +913,7 @@ display: none;
     font-size: 72px;
     line-height: 87.14px;
     margin: 0px;
+    letter-spacing: -0.02em;
 }
 .sub101-head{
     position: relative;
@@ -927,6 +960,7 @@ display: none;
     flex-direction: column;
     row-gap: 35px;
     text-align: left;
+    letter-spacing: -0.02em;
 }
 .block1 > img{
     border-radius: 50%;
@@ -938,6 +972,7 @@ display: none;
 display: flex;
 column-gap: 53px;
 align-items: start;
+font-family: 'Inter';
 }
 
 .block2-txt{
@@ -945,16 +980,21 @@ align-items: start;
     flex-direction: column;
     row-gap: 4px;
     text-align: start;
+    font-family: 'Inter';
 }
 .txt1{
 font-weight: 700;
 font-size: 18px;
 line-height: 21.78px;
+letter-spacing: -0.02em;
+font-family: 'Inter';
 }
 .txt2{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    letter-spacing: -0.02em;
+    font-family: 'Inter';
 }
 .star{
     display: flex;
@@ -993,7 +1033,7 @@ display: none;
     background-color: rgba(4, 56, 115, 1);
     width: 100%;
     margin: 0px;
-    padding: 140px 11.458% 32px 11.458%;
+    padding: 140px 11.45833333% 32px 11.45833333%;
     color: rgba(255, 255, 255, 1);
     font-family: 'Inter';
 }
@@ -1036,6 +1076,7 @@ display: none;
     font-size: 18px;
     line-height: 30px;
     height: fit-content;
+    letter-spacing: -0.02em;
 }
 .f12{
     display: flex;
@@ -1049,12 +1090,14 @@ display: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 21.78px;
+    letter-spacing: -0.02em;
 }
 .f12-text{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: -0.02em;
 }
 .f13{
     flex: 1;
@@ -1068,12 +1111,14 @@ display: none;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
+    letter-spacing: -0.02em;
 }
 .f13-text{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: -0.02em;
 }
 .f13-btn{
     width: 186px;
@@ -1091,6 +1136,7 @@ display: none;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
+    letter-spacing: -0.02em;
 }
 
 .f2{
@@ -1110,6 +1156,7 @@ column-gap: 60px;
     font-size: 16px;
     line-height: 20px;
     color: rgba(255, 255, 255, 1);
+    letter-spacing: -0.02em;
 }
 .f22{
     display: flex;
@@ -1123,7 +1170,10 @@ column-gap: 60px;
     .header{
         padding: 16px 32px;
     }
-
+    .text-cnt{
+        padding: 0px 4.0451388889vw 0px 0px;
+        column-gap: 2.2222222222vw;
+    }
     /* section 1 */
     .section1{
        padding: 100px 32px; 
