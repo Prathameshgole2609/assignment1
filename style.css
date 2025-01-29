@@ -1834,7 +1834,7 @@ column-gap: 60px;
     .sub91-head{
         font-size: 54px;
         line-height: 65.35px;
-        padding: 0px 12px;
+        /* padding: 0px 12px; */
     }
     .sub92{
         width: 66.62087912%;
